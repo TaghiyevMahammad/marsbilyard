@@ -202,7 +202,7 @@ if (form) {
     const note = document.getElementById('res-note').value.trim();
 
     // Create WhatsApp message
-    const message = `Salam! Mars Bilyard'a rezervasiya etmək istəyirəm:\n\nAdım: ${name}\nTelefonum: ${phone}\nTarix: ${date}\nSaat: ${time}\nXidmət: ${service}${note ? '\nQeyd: ' + note : ''}`;
+    const message = `Salam! Mars BİLYARD'a rezervasiya etmək istəyirəm:\n\nAdım: ${name}\nTelefonum: ${phone}\nTarix: ${date}\nSaat: ${time}\nXidmət: ${service}${note ? '\nQeyd: ' + note : ''}`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/994107264904?text=${encodedMessage}`;
 
@@ -334,7 +334,7 @@ if (resDate) {
 
 // ── Console Easter Egg ────────────────
 console.log(
-  '%c🔴 MARS BILYARD',
+  '%c🔴 MARS BİLYARD',
   'font-size:24px; font-weight:bold; color:#E8440A; text-shadow: 0 0 10px #E8440A;'
 );
 console.log('%cPremium Entertainment · Hövsan · Baku', 'color:#888; font-size:12px;');
